@@ -1,12 +1,12 @@
 /*
-Definición de la clase y creación de objetos
-Defina la clase Recta. En este apartado utilice únicamente datos miembro públicos.
+DefiniciÃ³n de la clase y creaciÃ³n de objetos
+Defina la clase Recta. En este apartado utilice Ãºnicamente datos miembro pÃºblicos.
 Cree un programa principal que haga lo siguiente:
  Defina dos objetos de la clase Recta.
  Lea seis reales desde teclado.
  Le asigne los tres primeros a los coeficientes de una recta y los otros tres a
 la segunda recta.
- Calcule e imprima la pendiente de cada recta aplicando la fórmula:
+ Calcule e imprima la pendiente de cada recta aplicando la fÃ³rmula:
 pendiente = - A / B
 */
 
@@ -32,8 +32,8 @@ int main(){
 	cout << "Introduzca puntos de la primera recta: " << endl;
 	cin >> A >> B >> C;
 	
-	r1.A=A;
 	r1.B=B;
+	r1.A=A;
 	r1.C=C;
 	cout << "Introduzca puntos de la segunda recta: " << endl;
 	cin >> A >> B >> C;
